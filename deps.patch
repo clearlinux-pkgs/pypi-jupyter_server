@@ -1,0 +1,11 @@
+--- jupyter_server-1.6.4/setup.cfg~	2021-04-21 21:01:12.000000000 +0000
++++ jupyter_server-1.6.4/setup.cfg	2021-04-24 18:10:29.970743643 +0000
+@@ -42,7 +42,7 @@
+ 	terminado>=0.8.3
+ 	prometheus_client
+ 	pywin32>=1.0 ; sys_platform == 'win32'
+-	anyio>=2.0.2,<3
++	anyio>=2.0.2
+ 
+ [options.extras_require]
+ test = coverage; pytest; pytest-cov; pytest-mock; requests; pytest-tornasync; pytest-console-scripts; ipykernel
