@@ -4,7 +4,7 @@
 #
 Name     : pypi-jupyter_server
 Version  : 1.13.5
-Release  : 39
+Release  : 40
 URL      : https://files.pythonhosted.org/packages/bc/a1/a42a9e2b94d2d5bbf5309064343efbb4f60cd2f18f8497b2e92902a8c7f8/jupyter_server-1.13.5.tar.gz
 Source0  : https://files.pythonhosted.org/packages/bc/a1/a42a9e2b94d2d5bbf5309064343efbb4f60cd2f18f8497b2e92902a8c7f8/jupyter_server-1.13.5.tar.gz
 Summary  : The backend—i.e. core services, APIs, and REST endpoints—to Jupyter web applications.
@@ -15,7 +15,6 @@ Requires: pypi-jupyter_server-license = %{version}-%{release}
 Requires: pypi-jupyter_server-python = %{version}-%{release}
 Requires: pypi-jupyter_server-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-BuildRequires : jupyter-packaging
 BuildRequires : pypi(anyio)
 BuildRequires : pypi(argon2_cffi)
 BuildRequires : pypi(ipython_genutils)
@@ -102,7 +101,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1644179242
+export SOURCE_DATE_EPOCH=1648236664
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
