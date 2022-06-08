@@ -1,5 +1,5 @@
 PKG_NAME := pypi-jupyter_server
-URL = https://files.pythonhosted.org/packages/0f/d2/d33f95f779e113c02f7a2c48dbaca3d47597979bb8a53b05b667f733ff59/jupyter_server-1.17.0.tar.gz
+URL = https://files.pythonhosted.org/packages/c4/b3/74a5c89d151a7f20a3b390cc2ecba84f7ba49ffb36bd5c73b0a2a320a84a/jupyter_server-1.17.1.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
