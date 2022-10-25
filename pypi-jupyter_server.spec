@@ -4,7 +4,7 @@
 #
 Name     : pypi-jupyter_server
 Version  : 1.21.0
-Release  : 54
+Release  : 55
 URL      : https://files.pythonhosted.org/packages/82/61/c9a3fcd305bdcdf03f9f7a87724d0c03742f74f77baf892ccd0b8f733cd4/jupyter_server-1.21.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/82/61/c9a3fcd305bdcdf03f9f7a87724d0c03742f74f77baf892ccd0b8f733cd4/jupyter_server-1.21.0.tar.gz
 Summary  : The backend—i.e. core services, APIs, and REST endpoints—to Jupyter web applications.
@@ -103,7 +103,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1665496773
+export SOURCE_DATE_EPOCH=1666713589
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
