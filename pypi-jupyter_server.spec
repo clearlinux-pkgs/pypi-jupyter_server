@@ -6,10 +6,10 @@
 # autospec commit: e661f3a
 #
 Name     : pypi-jupyter_server
-Version  : 2.11.0
-Release  : 71
-URL      : https://files.pythonhosted.org/packages/ab/e3/59e2cd8af76f7d1becb8242172c53c609094ea0a0fd0ddc07d663aa517cc/jupyter_server-2.11.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/ab/e3/59e2cd8af76f7d1becb8242172c53c609094ea0a0fd0ddc07d663aa517cc/jupyter_server-2.11.0.tar.gz
+Version  : 2.11.1
+Release  : 72
+URL      : https://files.pythonhosted.org/packages/8a/b9/3525a817adc21923be729ef4715adf5209c35e8a87057b336ffd30908a88/jupyter_server-2.11.1.tar.gz
+Source0  : https://files.pythonhosted.org/packages/8a/b9/3525a817adc21923be729ef4715adf5209c35e8a87057b336ffd30908a88/jupyter_server-2.11.1.tar.gz
 Summary  : The backend—i.e. core services, APIs, and REST endpoints—to Jupyter web applications.
 Group    : Development/Tools
 License  : BSD-3-Clause
@@ -83,10 +83,10 @@ python3 components for the pypi-jupyter_server package.
 
 
 %prep
-%setup -q -n jupyter_server-2.11.0
-cd %{_builddir}/jupyter_server-2.11.0
+%setup -q -n jupyter_server-2.11.1
+cd %{_builddir}/jupyter_server-2.11.1
 pushd ..
-cp -a jupyter_server-2.11.0 buildavx2
+cp -a jupyter_server-2.11.1 buildavx2
 popd
 
 %build
@@ -94,7 +94,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1700610424
+export SOURCE_DATE_EPOCH=1701162069
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
