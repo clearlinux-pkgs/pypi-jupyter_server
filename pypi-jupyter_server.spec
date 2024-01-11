@@ -6,10 +6,10 @@
 # autospec commit: ab27b0e
 #
 Name     : pypi-jupyter_server
-Version  : 2.12.3
-Release  : 78
-URL      : https://files.pythonhosted.org/packages/4d/31/5b7920103919232e47db99a95cb46eb2864be8209bc202ce64a2d5006ef2/jupyter_server-2.12.3.tar.gz
-Source0  : https://files.pythonhosted.org/packages/4d/31/5b7920103919232e47db99a95cb46eb2864be8209bc202ce64a2d5006ef2/jupyter_server-2.12.3.tar.gz
+Version  : 2.12.4
+Release  : 79
+URL      : https://files.pythonhosted.org/packages/6e/73/e990a35e1404165da2c5840d63cd428b1243eb4c6bc8e59ffcc998bcda09/jupyter_server-2.12.4.tar.gz
+Source0  : https://files.pythonhosted.org/packages/6e/73/e990a35e1404165da2c5840d63cd428b1243eb4c6bc8e59ffcc998bcda09/jupyter_server-2.12.4.tar.gz
 Summary  : The backend—i.e. core services, APIs, and REST endpoints—to Jupyter web applications.
 Group    : Development/Tools
 License  : BSD-3-Clause
@@ -83,10 +83,10 @@ python3 components for the pypi-jupyter_server package.
 
 
 %prep
-%setup -q -n jupyter_server-2.12.3
-cd %{_builddir}/jupyter_server-2.12.3
+%setup -q -n jupyter_server-2.12.4
+cd %{_builddir}/jupyter_server-2.12.4
 pushd ..
-cp -a jupyter_server-2.12.3 buildavx2
+cp -a jupyter_server-2.12.4 buildavx2
 popd
 
 %build
@@ -94,7 +94,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1704837746
+export SOURCE_DATE_EPOCH=1704986450
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
